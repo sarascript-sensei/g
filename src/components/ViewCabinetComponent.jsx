@@ -17,6 +17,7 @@ class ViewCabinetComponent extends Component {
         })
     }
 
+    
     render() {
         return (
             <div>
