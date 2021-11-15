@@ -21,6 +21,7 @@ class ListCabinetComponent extends Component {
     viewCabinet(id){
         this.props.history.push(`/view-cabinet/:${id}`);
     }
+    
     editCabinet(id){
         this.props.history.push(`/add-cabinet/:${id}`);
     }
