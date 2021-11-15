@@ -19,7 +19,7 @@ class ListBuildingComponent extends Component {
         });
     }
     viewBuilding(id){
-        this.props.history.push(`/view-building/:${id}`);
+        this.props.history.push(`/view-buildingit config --global user.name "yourusername"g/:${id}`);
     }
     editBuilding(id){
         this.props.history.push(`/add-building/:${id}`);
